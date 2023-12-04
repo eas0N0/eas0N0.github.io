@@ -82,14 +82,12 @@ analytics:
 author:
   name             : "Yusen Chen"
   avatar           : "https://i.ibb.co/p4td0vN/b0c67a3540b5077bda48c90a034e2cb.png"
-  bio              : "cys1234"
+  bio              : "cys12345"
   location         : "Shenzhen, China"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   email            : "yusenchen@link.cuhk.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   github           : "eas0N0"
-  linkedin         : "https://.linkedin.com/in/yusen-chen-9a4794280"
+  linkedin         : "https://linkedin.com/in/yusen-chen-9a4794280"
  
 
 # Reading Files
