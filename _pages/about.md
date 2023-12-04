@@ -12,6 +12,7 @@ redirect_from:
 
 ## Education Background
 The Chinese University of Hong Kong, Shenzhen (2020-2024)
+
 _BSc of Data Science and Big Data Technology_
 
 
