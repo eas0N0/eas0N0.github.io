@@ -67,7 +67,7 @@ analytics:
 # Site Author
 author:
   name             : "Yusen Chen"
-  avatar           : "https://i.ibb.co/PrsJKRv/profilepic.jpg"
+  avatar           : "./images/profilepic.jpg"
   bio              : "cys12345"
   location         : "Shenzhen, China"
   email            : "yusenchen@link.cuhk.edu.cn"
