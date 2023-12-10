@@ -17,7 +17,7 @@ The Chinese University of Hong Kong, Shenzhen (2020-2024)
 # Professional Experience
 ## Tencent Ltd.                                                   
 _Algorithm Engineer Intern, Machine Learning Platform Department_      
- Shenzhen, China \   06/2023 - 09/2023       
+ Shenzhen, China &emsp   06/2023 - 09/2023       
 * Contributed to support the advancement of Tencent’s flagship Large Language Model (LLM), concerning the Reinforcement Learning with Human Feedback (RLHF) and Supervised Fine-tuning (SFT)
 * Enhanced the performance of the Proximal Policy Optimization (PPO) reinforcement efficacy for LLM; Implemented pre-processing on input prompts to mitigate the negative impact of homogeneous prompts on reinforcement effects
 * Completed the investigation for appropriate mining methods and distance metrics of prompt text to strike a balance between data volume and diversity; Developed a framework for maintaining diversity within the prompts’ pool based on the research
