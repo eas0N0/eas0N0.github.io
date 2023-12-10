@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "My CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,23 +9,24 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+# Education
+The Chinese University of Hong Kong, Shenzhen (2020-2024)
+  _Bsc in Data Science and Big Data Technology_
+  
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+# Professional Experience
+**Tencent Ltd. **                                                                                  <p align="right">06/2023 - 09/2023</p>
+Algorithm Engineer Intern, Machine Learning Platform Department                                          <p align="right">Shenzhen, China</p>
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Contributed to support the advancement of Tencent’s flagship Large Language Model (LLM), concerning the Reinforcement Learning with Human Feedback (RLHF) and Supervised Fine-tuning (SFT)
+* Enhanced the performance of the Proximal Policy Optimization (PPO) reinforcement efficacy for LLM; Implemented pre-processing on input prompts to mitigate the negative impact of homogeneous prompts on reinforcement effects
+* Completed the investigation for appropriate mining methods and distance metrics of prompt text to strike a balance between data volume and diversity; Developed a framework for maintaining diversity within the prompts’ pool based on the research
+* Established Prompt Learning paradigm for the LLM’s reinforcement, including mining, cleaning, labeling, and classification of prompt data based on self-instruct methods and open-source dataset mining
+* Executed recall task for misclassified prompts, employing classification methods of Ensemble Learning, Fine-tuned BERT, Graph Convolutional Network (GCN) and Graph Attention Network(GAT), achieving a final F1-score of 0.88
+
+
+
+
   
 Skills
 ======
