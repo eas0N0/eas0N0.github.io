@@ -11,6 +11,7 @@ redirect_from:
 
 # Education
 The Chinese University of Hong Kong, Shenzhen (2020-2024)
+  
   _Bsc in Data Science and Big Data Technology_
 
 
