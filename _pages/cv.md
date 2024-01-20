@@ -10,8 +10,7 @@ redirect_from:
 {% include base_path %}
 
 # Education
-The Chinese University of Hong Kong, Shenzhen (2020-2024)
-  
+The Chinese University of Hong Kong, Shenzhen (2020-2024)  
   _Bsc in Data Science and Big Data Technology_
 
 
@@ -28,7 +27,7 @@ Shenzhen, China
 * Established Prompt Learning paradigm for the LLM’s reinforcement, including mining, cleaning, labeling, and classification of prompt data based on self-instruct methods and open-source dataset mining
 * Executed recall task for misclassified prompts, employing classification methods of Ensemble Learning, Fine-tuned BERT, Graph Convolutional Network (GCN) and Graph Attention Network(GAT), achieving a final F1-score of 0.88
 
-
+<br/>
 **Shenzhen Research Institute of Big Data**  
 _Research Assistant_  
 03/2023 - 07/2023  
@@ -39,6 +38,7 @@ Shenzhen, China
 *	Derived the decay relationship of prediction accuracy with increasing time spans and achieved a maximum accuracy of 0.77 for position prediction after 1 hour and 0.67 after 15 hours 
 * Optimized school bus scheduling and managing nighttime classroom openings based on trajectory prediction results; Reduced nighttime electricity costs by 4.8%
 
+<br/>
 **Shenzhen Intellifusion Technologies Co. Ltd.**  
 _Big Data Engineer Intern, Big Data Department_  
 06/2022 - 08/2022  
@@ -47,7 +47,7 @@ Shenzhen, China
 *	Processed more than six hundred million rows of bus pass transaction records; Enhanced prediction accuracy through hyperparameter tuning and ensemble learning techniques; Achieved the lowest MAPE for daily prediction at 0.014
 *	Applied the models to enhance the company’s Bus Simulation Optimization System to improve the bus resource allocation; Reduced the daily operational costs for 6.9% and average passenger waiting times for 5.2% based on the forecasting results
 *	Derived probability distributions for individual passengers across various travel times and routes
-
+<br/>
 
   
 Skills
