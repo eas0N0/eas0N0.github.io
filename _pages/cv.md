@@ -16,7 +16,7 @@ The Chinese University of Hong Kong, Shenzhen (2020-2024)
 
 
 # Professional Experience
-## Tencent Ltd.                                                   
+**Tencent Ltd.**                                                   
 _Algorithm Engineer Intern, Machine Learning Platform Department_      
 06/2023 - 09/2023     
 Shenzhen, China
