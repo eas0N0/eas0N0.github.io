@@ -46,36 +46,7 @@ Shenzhen, China
 *	Processed more than six hundred million rows of bus pass transaction records; Enhanced prediction accuracy through hyperparameter tuning and ensemble learning techniques; Achieved the lowest MAPE for daily prediction at 0.014
 *	Applied the models to enhance the company’s Bus Simulation Optimization System to improve the bus resource allocation; Reduced the daily operational costs for 6.9% and average passenger waiting times for 5.2% based on the forecasting results
 *	Derived probability distributions for individual passengers across various travel times and routes
-<br/>
+
 
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
