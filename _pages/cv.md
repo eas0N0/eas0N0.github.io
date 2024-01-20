@@ -18,11 +18,8 @@ The Chinese University of Hong Kong, Shenzhen (2020-2024)
 # Professional Experience
 
 **Tencent Ltd.**
-
-_Algorithm Engineer Intern, Machine Learning Platform Department_     
-
-06/2023 - 09/2023     
-
+_Algorithm Engineer Intern, Machine Learning Platform Department_  
+06/2023 - 09/2023  
 Shenzhen, China
 
 * Contributed to support the advancement of Tencent’s flagship Large Language Model (LLM), concerning the Reinforcement Learning with Human Feedback (RLHF) and Supervised Fine-tuning (SFT)
