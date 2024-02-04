@@ -3,7 +3,7 @@ title: "Image-Text Based Dermatological Diagnosis Helper: Vector and Relational 
 excerpt: "Forecasting multiple time series concurrently based on their interrelations and individual information<br/><img src='images/system_ov.png'>"
 collection: portfolio
 ---
-Please visit the full version of the [report](https://github.com/eas0N0/Image-Text-Based-Dermatological-Diagnosis-Helper/blob/main/report_g31(1).pdf) here.
+Please visit the full version of the [report](https://github.com/eas0N0/Image-Text-Based-Dermatological-Diagnosis-Helper/blob/main/report_g31(1).pdf) and a [video demo](https://drive.google.com/file/d/1lquW6XVVv7FgiJYXBo5QS7F1Tvserl9u/view?usp=sharing) here. 
 
 # Introduction
 
@@ -84,9 +84,7 @@ Through rigorous testing, our system has demonstrated a harmonious blend of accu
 efficiency.
 
 
-<video width="800" height:auto controls, preload="auto">
-    <source src="https://drive.google.com/file/d/1lquW6XVVv7FgiJYXBo5QS7F1Tvserl9u/view?usp=sharing" type="video/mp4">
-</video>
+
 
 
 
