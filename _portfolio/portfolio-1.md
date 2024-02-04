@@ -1,14 +1,27 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Project 1: Multivariate Time Series Prediction Based on GNN-GLU Model"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/model_archi.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Time series forecasting plays a vital role in a wide range of real-world applications, from economics and finance to 
+transportation. Predicting future trends based on historical data can help us make better decisions. For example, if we
+can get accurate forecasts of the stock and the commodity markets, we can make considerable profits from the forecasts.
+Moreover, if we can forecast the trend of COVID-19 new cases, we can allocate medical resources to prevent the epidemic
+outbreak in advance.
 
-asbddjhasbhj
-sfasbhjfbq
-safqbwhjbjszf
-fwqbhjkzs
-fqwebfkqlfz
-dqwbfqwkbkja
+Multivariate time series data contains time series from multiple interlinked data. In addition to forecasting the trend
+based on historical temporal patterns within each time series, we can utilize the correlations between different time series
+to improve the accuracy of forecasting. For instance, as shown in Figure 1, the prices of crude oil and gasoline are highly
+correlated and the rise in crude oil may indicate a rise in the price of gasoline in the near future. The observation motivates
+that utilising the information from both time series would help us better forecast the trend of each one.
+
+**Significance and Novelty** &emsp; Making accurate multivariate time series forecasting is challenging, especially in some
+complicated scenarios such as the stock market, where the correlations between different stocks are not fixed and difficult
+to capture. Some traditional statistical methods may fail because they assume there are linear correlations among time
+series[1]. Besides, deep learning models involving LSTM [2] and GRU[3] do not perform well because it is difficult for
+them to extract spatial and temporal features jointly[4]. Aiming to capture inter-series correlation and intra-series patterns
+jointly, we proposed a GNN-GLU model to shuttle between the temporal and spectral domains and make forecasts based
+on information from multivariate time series data. To verify the significance of our model, we also conduct experiments
+on stock forecasting and COVID-19 new case forecasting with real-world data.
+
