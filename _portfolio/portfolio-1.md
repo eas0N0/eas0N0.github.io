@@ -1,6 +1,6 @@
 ---
 title: "Multivariate Time Series Prediction Based on GNN-GLU Model"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/model_archi.png'>"
+excerpt: "Forecasting multiple time series concurrently based on their interrelations and individual information<br/><img src='/images/model_archi.png'>"
 collection: portfolio
 ---
 # Introduction
