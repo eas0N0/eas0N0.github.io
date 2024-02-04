@@ -54,16 +54,16 @@ six industry categories: Finance, Properties, Industrials, Conglomerates, Commer
 stocks with top 30% market capitalization to ensure model stability.
 We chose the closing price on a given trading day as the input for the model. In our experiment, we selected nine stocks
 with historical data of 500 trading days. We trained the GNN-GLU model based on these data and used a rolling strategy
-with a window size of 30 to forecast the next 10 days’ prices. More specifically, after we forecast the price of day t, we
-combined the forecasting value with the prices of the past 29 days to predict the price of day t + 1.
+with a window size of 30 to forecast the next 10 days’ prices. More specifically, after we forecast the price of day $t$, we
+combined the forecasting value with the prices of the past 29 days to predict the price of day $t + 1$.
 
 **Results and Discussion** &emsp; Our experiment results yielded three main findings. First, our hybrid GNN-GLU model
 outperforms other methods in terms of accuracy indicators, including Mean Absolute Error (MAE), Root Mean Square
 Error (RMSE), and Mean Absolute Percentage Error (MAPE). Second, our model can roughly capture the trend of stock
-price (shown in Figures 4, 5, 6 and 7), thus exhibiting potential profitability in financial applications. Through numerous
+price (shown in Figures 5, 6, 7, and 8), thus exhibiting potential profitability in financial applications. Through numerous
 experiments, we constructed various trading strategies that generate positive returns, the details of which are provided in
 the appendix. Third, our model demonstrates high interpretability connected with reality. The illustration of the matrix
-W in Figure 3 reflects the strength of the relationship between different stocks, which can help people better understand
+\mathcal{W}  in Figure 3 reflects the strength of the relationship between different stocks, which can help people better understand
 the dynamics of the stock market.
 
 ![res1](https://github.com/eas0N0/eas0N0.github.io/assets/129197157/2d7f4417-6f02-4628-b2d7-ba94af2628d4)
