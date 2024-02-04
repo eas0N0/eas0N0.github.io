@@ -3,6 +3,8 @@ title: "Multivariate Time Series Prediction Based on GNN-GLU Model"
 excerpt: "Forecasting multiple time series concurrently based on their interrelations and individual information<br/><img src='/images/model_archi.png'>"
 collection: portfolio
 ---
+Please visit the full version of the report here: https://github.com/eas0N0/GNN-GLU-based-Time-Series-Forecasting/blob/be027078c1d03386cbe969ace5a8854d85863e26/report.pdf
+
 # Introduction
 
 Time series forecasting plays a vital role in a wide range of real-world applications, from economics and finance to 
@@ -37,8 +39,7 @@ prediction. The loss function of the GLU-GNN forecasting network can be written 
 
 $$ \mathcal{L}(\widehat{X}_{t}, X_{t} ; \Theta)=\sum_{t=K}^{T}\|\widehat{\boldsymbol{X}}_{\boldsymbol{t}}-X_{t}\|_{2}^{2}+\frac{\lambda}{2}\|\Theta\|_{2}^{2} $$
 
-![model_archi](https://github.com/eas0N0/eas0N0.github.io/assets/129197157/9c4d765b-3507-4b40-b0f2-e0547a279222)
-
+![model](https://github.com/eas0N0/eas0N0.github.io/assets/129197157/182b0f63-1cff-48fa-b49f-70fee4878727)
 
 # Experiments
 
