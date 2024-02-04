@@ -65,9 +65,9 @@ the appendix. Third, our model demonstrates high interpretability connected with
 W in Figure 3 reflects the strength of the relationship between different stocks, which can help people better understand
 the dynamics of the stock market.
 
-![Experiment Results](images/res1.png "Experiment Results")
-![Experiment Results](images/res2.png "Experiment Results")
-![Experiment Results](images/res3.png "Experiment Results")
+![res1](https://github.com/eas0N0/eas0N0.github.io/assets/129197157/2d7f4417-6f02-4628-b2d7-ba94af2628d4)
+![res2](https://github.com/eas0N0/eas0N0.github.io/assets/129197157/8c9d1402-c644-4a9a-8d11-f5a9ef42049c)
+![res3](https://github.com/eas0N0/eas0N0.github.io/assets/129197157/d87afc81-f77e-4c72-9589-8cc66c0e0f4d)
 
 # Conclusion
 In this project, we propose a new forecasting model GNN-GLU to take advantage of inter-series correlations and temporal
