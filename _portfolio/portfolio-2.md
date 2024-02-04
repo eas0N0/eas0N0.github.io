@@ -1,6 +1,6 @@
 ---
 title: "Image-Text Based Dermatological Diagnosis Helper: Vector and Relational Database"
-excerpt: "We constructed a vector database to store image and text vectors, for image-text based dermatological diagnosis. And we also designed a drug ordering system, which is a relational database, for the users to purchase drugs based on the diagnosis.<br/><img src='/images/system_ov.png' width='50%'>"
+excerpt: "We constructed a vector database to store image and text vectors, for image-text based dermatological diagnosis. And we also designed a drug ordering system, which is a relational database, for the users to purchase drugs based on the diagnosis.<br/><img src='/images/system_ov.png' width='70%'>"
 collection: portfolio
 ---
 Please visit the full version of the [report](https://github.com/eas0N0/Image-Text-Based-Dermatological-Diagnosis-Helper/blob/main/report_g31(1).pdf) and a [video demo](https://drive.google.com/file/d/1lquW6XVVv7FgiJYXBo5QS7F1Tvserl9u/view?usp=sharing) here. 
