@@ -33,7 +33,48 @@ correlations among different time series and build the graph $ \mathcal{G}  $. T
 inverse Graph Fourier Transform. It mainly captures the inter-series relationship. Secondly, the **Intra-series Layer**
 performs Discrete Fourier Transform, 1D Convolution, GLU, and inverse Discrete Fourier Transform. It mainly learns
 the intra-series features. Thirdly, the **Temporal Layer** applies the GLU and Fully-connected layer (FC), making the
-prediction.
+prediction. The loss function of the GLU-GNN forecasting network can be written as:
 
 $$ \mathcal{L}(\widehat{X}_{t}, X_{t} ; \Theta)=\sum_{t=K}^{T}\|\widehat{\boldsymbol{X}}_{\boldsymbol{t}}-X_{t}\|_{2}^{2}+\frac{\lambda}{2}\|\Theta\|_{2}^{2} $$
+
+![Model Architecture](images/model.png "Model Architecture")
+
+# Experiments
+
+**Motivation** &emsp; The financial market’s volatility is inherently complex and nonlinear, making it challenging to rely solely
+on a trader’s expertise and instinct for analysis and decision-making. Therefore, an intelligent, scientific, and efficient
+method for guiding stock trading is essential. In this study, we present a hybrid GNN-GLU model for predicting stock
+prices in China’s A-share market.
+
+**Data Sources and Preprocessing** &emsp; We obtained daily individual stock data for the China A-share market from CSMAR
+and company filing data covering the period from December 31, 2019, to March 31, 2023. We classified the stocks into
+six industry categories: Finance, Properties, Industrials, Conglomerates, Commerce, and Utilities. We selected from the
+stocks with top 30% market capitalization to ensure model stability.
+We chose the closing price on a given trading day as the input for the model. In our experiment, we selected nine stocks
+with historical data of 500 trading days. We trained the GNN-GLU model based on these data and used a rolling strategy
+with a window size of 30 to forecast the next 10 days’ prices. More specifically, after we forecast the price of day t, we
+combined the forecasting value with the prices of the past 29 days to predict the price of day t + 1.
+
+**Results and Discussion** &emsp; Our experiment results yielded three main findings. First, our hybrid GNN-GLU model
+outperforms other methods in terms of accuracy indicators, including Mean Absolute Error (MAE), Root Mean Square
+Error (RMSE), and Mean Absolute Percentage Error (MAPE). Second, our model can roughly capture the trend of stock
+price (shown in Figures 4, 5, 6 and 7), thus exhibiting potential profitability in financial applications. Through numerous
+experiments, we constructed various trading strategies that generate positive returns, the details of which are provided in
+the appendix. Third, our model demonstrates high interpretability connected with reality. The illustration of the matrix
+W in Figure 3 reflects the strength of the relationship between different stocks, which can help people better understand
+the dynamics of the stock market.
+
+![Experiment Results](images/res1.png "Experiment Results")
+![Experiment Results](images/res2.png "Experiment Results")
+![Experiment Results](images/res3.png "Experiment Results")
+
+# Conclusion
+In this project, we propose a new forecasting model GNN-GLU to take advantage of inter-series correlations and temporal
+dependencies by shuttling between the temporal domain and spectral domain and capturing corresponding features.
+We also proposed three approaches to generate the correlation matrix, which is proven to have a significant impact on
+performance. The results show that GNN-GLU outperforms other forecasting models in the database of the stock market
+and COVID-19. Moreover, GNN-GLU exhibits strong interpretability regarding the generation and capture of correlation
+among time series. There are three main directions for further work. First, We could try more methods in the correlation
+feature extraction process. Second, we may employ residual connections to stack more blocks in our model to improve
+forecasting accuracy. Third, we will look for its application to more real-world scenarios and try some large-scale datasets.
 
