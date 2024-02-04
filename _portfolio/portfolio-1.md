@@ -30,7 +30,7 @@ on stock forecasting and COVID-19 new case forecasting with real-world data.
 
 # Methodology
 
-The illustration of our model is shown in Figure 2. Given multivariate time-series $ X $ as input, we first generate the
+The illustration of our model is shown in the following figure. Given multivariate time-series $ X $ as input, we first generate the
 correlations among different time series and build the graph $ \mathcal{G}  $. Then we put $ \mathcal{G}  $ into the following three layers. Firstly, the **Spectral Layer** contains a Graph Fourier Transform, an Intra-series Layer, a Spectral Graph Convolution, and an
 inverse Graph Fourier Transform. It mainly captures the inter-series relationship. Secondly, the **Intra-series Layer**
 performs Discrete Fourier Transform, 1D Convolution, GLU, and inverse Discrete Fourier Transform. It mainly learns
