@@ -83,8 +83,10 @@ database, allowing users to conveniently order medications following the diagnos
 Through rigorous testing, our system has demonstrated a harmonious blend of accuracy and 
 efficiency.
 
-
+```HTML
 <video width="320" height="240" controls>
     <source src="https://github.com/eas0N0/Image-Text-Based-Dermatological-Diagnosis-Helper/blob/0fdb14a6570eda7bd30f871650f9fef12d161b22/video_demo.mp4" type="video/mp4">
 </video>
+```
+
 
