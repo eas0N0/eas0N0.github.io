@@ -84,8 +84,8 @@ Through rigorous testing, our system has demonstrated a harmonious blend of accu
 efficiency.
 
 ```HTML
-<video width="320" height="240" controls>
-    <source src="https://github.com/eas0N0/Image-Text-Based-Dermatological-Diagnosis-Helper/blob/0fdb14a6570eda7bd30f871650f9fef12d161b22/video_demo.mp4" type="video/mp4">
+<video width="800" height="640" controls>
+    <source src="https://drive.google.com/file/d/1lquW6XVVv7FgiJYXBo5QS7F1Tvserl9u/view?usp=sharing" type="video/mp4">
 </video>
 ```
 
