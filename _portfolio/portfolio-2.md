@@ -84,7 +84,7 @@ Through rigorous testing, our system has demonstrated a harmonious blend of accu
 efficiency.
 
 
-<video width="800" height="640" controls>
+<video width="800" height:auto controls, preload="auto">
     <source src="https://drive.google.com/file/d/1lquW6XVVv7FgiJYXBo5QS7F1Tvserl9u/view?usp=sharing" type="video/mp4">
 </video>
 
