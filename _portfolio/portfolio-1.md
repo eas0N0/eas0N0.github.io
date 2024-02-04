@@ -1,5 +1,5 @@
 ---
-title: "Project 1: Multivariate Time Series Prediction Based on GNN-GLU Model"
+title: "Multivariate Time Series Prediction Based on GNN-GLU Model"
 excerpt: "Short description of portfolio item number 1<br/><img src='/images/model_archi.png'>"
 collection: portfolio
 ---
