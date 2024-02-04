@@ -1,6 +1,6 @@
 ---
 title: "Image-Text Based Dermatological Diagnosis Helper: Vector and Relational Database"
-excerpt: "Forecasting multiple time series concurrently based on their interrelations and individual information<br/><img src='/images/model_archi.png'>"
+excerpt: "Forecasting multiple time series concurrently based on their interrelations and individual information<br/><img src='images/system_ov.png'>"
 collection: portfolio
 ---
 Please visit the full version of the [report](https://github.com/eas0N0/Image-Text-Based-Dermatological-Diagnosis-Helper/blob/main/report_g31(1).pdf) here.
