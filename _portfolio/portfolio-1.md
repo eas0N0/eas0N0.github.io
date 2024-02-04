@@ -37,7 +37,7 @@ prediction. The loss function of the GLU-GNN forecasting network can be written 
 
 $$ \mathcal{L}(\widehat{X}_{t}, X_{t} ; \Theta)=\sum_{t=K}^{T}\|\widehat{\boldsymbol{X}}_{\boldsymbol{t}}-X_{t}\|_{2}^{2}+\frac{\lambda}{2}\|\Theta\|_{2}^{2} $$
 
-![Model Architecture](https://github.com/eas0N0/eas0N0.github.io/blob/92863bb918f1a04e78236542615588f7f68f9598/images/model.png "Model Architecture")
+![model_archi](https://github.com/eas0N0/eas0N0.github.io/assets/129197157/9c4d765b-3507-4b40-b0f2-e0547a279222)
 
 
 # Experiments
