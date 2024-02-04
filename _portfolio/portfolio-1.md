@@ -1,6 +1,6 @@
 ---
 title: "Multivariate Time Series Prediction Based on GNN-GLU Model"
-excerpt: "We utilized the GNN to forecast multiple time series concurrently based on their interrelations and individual information. On one hand, we leveraged the Self-attention mechanism to build the graph. On the other hand, we applied Fourier transform 1D Convolution, GLU, and Fully-connected layer to capture information and forecast<br/><img src='/images/model_archi.png'>"
+excerpt: "We utilized the GNN to forecast multiple time series concurrently based on their interrelations and individual information. On one hand, we leveraged the Self-attention mechanism to build the graph. On the other hand, we applied Fourier transform 1D Convolution, GLU, and Fully-connected layer to capture information and forecast.<br/><img src='/images/model_archi.png'>"
 collection: portfolio
 ---
 Please visit the full version of the [report](https://github.com/eas0N0/GNN-GLU-based-Time-Series-Forecasting/blob/be027078c1d03386cbe969ace5a8854d85863e26/report.pdf) here.
