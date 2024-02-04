@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+Please visit the full version of the [CV](https://drive.google.com/file/d/1ttILZU_zw7L7rVmTi_W5lQsxh2fUeIhS/view?usp=sharing) here. 
+
 # Education
 The Chinese University of Hong Kong, Shenzhen (2020-2024)  
   _Bsc in Data Science and Big Data Technology_
