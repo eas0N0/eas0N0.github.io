@@ -3,7 +3,7 @@ title: "Multivariate Time Series Prediction Based on GNN-GLU Model"
 excerpt: "Forecasting multiple time series concurrently based on their interrelations and individual information<br/><img src='/images/model_archi.png'>"
 collection: portfolio
 ---
-Please visit the full version of the report here: https://github.com/eas0N0/GNN-GLU-based-Time-Series-Forecasting/blob/be027078c1d03386cbe969ace5a8854d85863e26/report.pdf
+Please visit the full version of the report here: https://github.com/eas0N0/GNN-GLU-based-Time-Series-Forecasting/blob/main/report.pdf
 
 # Introduction
 
