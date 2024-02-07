@@ -17,7 +17,7 @@ From my perspective, the undergraduate learning stage should primarily emphasize
 
 I started another research project at the beginning of 2024, which is about subgraph searching via GNN. The general motivation is that the GNN methods are much faster than the current methods for subgraph searching (classical graph database approaches). I plan to complete the final paper of this research in June 2024.
 
-I build this website mainly due to display my academic progress, CV and my finished projects in an efficient way. You can visit other parts through the menu bar above the page. Please feel free to contact me if you are interested!
+My main purpose of building this website is to display my academic progress, CV and my finished projects in an efficient way. You can visit other parts through the menu bar above the page. Please feel free to contact me if you are interested!
 
 
 
